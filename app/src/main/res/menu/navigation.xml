@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_controle"
+        android:icon="@drawable/contron_icon"
+        android:title="@string/controle_fragment" />
+    <item
+        android:id="@+id/navigation_bluetooth"
+        android:icon="@drawable/bluetooth_icon"
+        android:title="@string/bluetooth_fragment" />
+
+</menu>

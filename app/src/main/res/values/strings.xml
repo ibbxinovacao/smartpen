@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartPen</string>
+    <string name="controle_fragment">Controle</string>
+    <string name="bluetooth_fragment">Bluetooth</string>
+    <string name="arquivos_fragment">Arquivos</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+</resources>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ibbxinovacao.smartpendrive.BluetoothFragment"
+    android:background="@color/white">
+
+    <ToggleButton
+        android:id="@+id/scan"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/scan"
+        android:textOn=""
+        android:textOff=""
+        android:text=""  />
+
+    <ImageView
+        android:id="@+id/sage2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ibbx" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sage2"
+        android:layout_marginTop="117dp">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </GridLayout>
+
+</RelativeLayout>

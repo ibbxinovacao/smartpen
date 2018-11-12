@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ibbxinovacao.smartpendrive.ControleFragment"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/down"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/sage"
+        android:layout_alignEnd="@+id/sage"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/wifi2"
+        android:paddingBottom="100dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/sage"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ibbx" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/down"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-96dp"
+        android:paddingLeft="15dp"
+        android:text="Bluetooth"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/connected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/status"
+        android:layout_alignEnd="@+id/down"
+        android:layout_alignBottom="@+id/status"
+        android:layout_marginEnd="-77dp"
+        android:layout_marginBottom="2dp"
+        android:paddingRight="15dp"
+        android:text="Não Conectado"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp" />
+
+</RelativeLayout>
